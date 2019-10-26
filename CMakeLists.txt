@@ -9,6 +9,16 @@ add_message_files(
   Velocities.msg
   PID.msg
   Imu.msg
+  Battery.msg
+  Fall.msg
+  Infrared.msg
+  Crash.msg
+  Servo.msg
+  Sonar.msg
+  PowerKey.msg
+  Key.msg
+  Encoder.msg
+  rpm.msg
 )
 
 generate_messages(DEPENDENCIES std_msgs geometry_msgs)
